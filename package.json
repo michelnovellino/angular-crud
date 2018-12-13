@@ -1,0 +1,22 @@
+{
+  "name": "angular-crud",
+  "version": "1.0.0",
+  "description": "a simple crud with mean stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "author": "Michel Novellino",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongojs": "^2.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
